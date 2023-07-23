@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22rem;
+}
+
+/* ---------Info container----------*/
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  width: 20rem;
+  margin: 2rem;
+}
+
+.info-container__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.info-container__title span {
+  color: #15cf81;
+}
+
+.info-container__address {
+  margin: 12px 0;
+}
+
+.info-container__copyright {
+  font-size: 10px;
+}
+
+.info-container__copyright span {
+  margin-left: 4px;
+}
+
+/* -----Links----------*/
+.info-container__links {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px 0;
+}
+
+.info-container__links-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+}
+
+.info-container__links-cover:hover {
+  border: 2px solid #15cf81;
+  transform: scale(1.2);
+}
+
+/* -----Hire me----------*/
+.info-container__hire {
+  background: #15cf81;
+  padding: 8px;
+  border-radius: 16px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.info-container__hire:hover {
+  transform: scale(1.05);
+}
