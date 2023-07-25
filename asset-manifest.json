@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aaris_portfolio/static/css/main.57d7cde2.css",
-    "main.js": "/aaris_portfolio/static/js/main.583f4976.js",
+    "main.css": "/aaris_portfolio/static/css/main.15ea4048.css",
+    "main.js": "/aaris_portfolio/static/js/main.2f15cf06.js",
     "static/media/aaris.jpg": "/aaris_portfolio/static/media/aaris.6b88bdd45c5bf559d486.jpg",
     "index.html": "/aaris_portfolio/index.html",
-    "main.57d7cde2.css.map": "/aaris_portfolio/static/css/main.57d7cde2.css.map",
-    "main.583f4976.js.map": "/aaris_portfolio/static/js/main.583f4976.js.map"
+    "main.15ea4048.css.map": "/aaris_portfolio/static/css/main.15ea4048.css.map",
+    "main.2f15cf06.js.map": "/aaris_portfolio/static/js/main.2f15cf06.js.map"
   },
   "entrypoints": [
-    "static/css/main.57d7cde2.css",
-    "static/js/main.583f4976.js"
+    "static/css/main.15ea4048.css",
+    "static/js/main.2f15cf06.js"
   ]
 }
