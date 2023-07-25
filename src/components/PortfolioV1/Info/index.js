@@ -1,5 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faCopyright } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faCopyright,
+  faFile,
+} from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Navigation from "../Details/Navigation";
@@ -33,23 +37,33 @@ const Info = () => {
           </div>
 
           <div className={styles["info-container__links"]}>
-            <a href="#contact" target="blank">
-              <div className={styles["info-container__links-cover"]}>
+            <div className={styles["info-container__links-cover"]}>
+              <a href="#contact" target="blank">
                 <FontAwesomeIcon icon={faEnvelope} size="2xs" beatFade />
-              </div>
-            </a>
+              </a>
+            </div>
 
             <div className={styles["info-container__links-cover"]}>
               <a href="https://github.com/master-coding" target="blank">
                 <FontAwesomeIcon icon={faGithub} size="2xs" beatFade />
               </a>
             </div>
+
             <div className={styles["info-container__links-cover"]}>
               <a
                 href="https://www.linkedin.com/in/aaris-ahmed-480773216/"
                 target="blank"
               >
                 <FontAwesomeIcon icon={faLinkedin} beatFade size="2xs" />
+              </a>
+            </div>
+
+            <div className={styles["info-container__links-cover"]}>
+              <a
+                href="https://drive.google.com/file/d/1lpLbwEa2Zy33KFoiM_w5ZmjUO7BItDg6/view?usp=sharing"
+                target="blank"
+              >
+                <FontAwesomeIcon icon={faFile} beatFade size="2xs" />
               </a>
             </div>
           </div>
