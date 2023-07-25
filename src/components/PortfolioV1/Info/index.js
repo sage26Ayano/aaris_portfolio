@@ -33,19 +33,31 @@ const Info = () => {
           </div>
 
           <div className={styles["info-container__links"]}>
+            <a href="#contact" target="blank">
+              <div className={styles["info-container__links-cover"]}>
+                <FontAwesomeIcon icon={faEnvelope} size="2xs" beatFade />
+              </div>
+            </a>
+
             <div className={styles["info-container__links-cover"]}>
-              <FontAwesomeIcon icon={faEnvelope} size="2xs" beatFade />
+              <a href="https://github.com/master-coding" target="blank">
+                <FontAwesomeIcon icon={faGithub} size="2xs" beatFade />
+              </a>
             </div>
             <div className={styles["info-container__links-cover"]}>
-              <FontAwesomeIcon icon={faGithub} size="2xs" beatFade />
-            </div>
-            <div className={styles["info-container__links-cover"]}>
-              <FontAwesomeIcon icon={faLinkedin} beatFade size="2xs" />
+              <a
+                href="https://www.linkedin.com/in/aaris-ahmed-480773216/"
+                target="blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} beatFade size="2xs" />
+              </a>
             </div>
           </div>
         </div>
 
-        <button className={styles["info-container__hire"]}>HIRE ME!</button>
+        <a href="#contact">
+          <button className={styles["info-container__hire"]}>HIRE ME!</button>
+        </a>
       </div>
     </div>
   );

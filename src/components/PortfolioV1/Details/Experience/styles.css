@@ -44,3 +44,9 @@
 .vertical-timeline-element-subtitle {
   margin: 0.5rem 0;
 }
+
+@media screen and (max-width: 900px) {
+  .experience-title {
+    font-size: 2.2rem;
+  }
+}

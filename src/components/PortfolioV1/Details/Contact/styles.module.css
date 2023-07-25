@@ -1,0 +1,56 @@
+.contact-container {
+  margin-top: 4rem;
+  min-height: 100dvh;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.title span {
+  color: #15cf81;
+  border-bottom: 2px solid #15cf81;
+  border-radius: 4px;
+  padding-bottom: 4px;
+}
+
+.contact-form {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+
+.contact-form__label {
+  display: flex;
+}
+
+.contact-form label {
+  width: 150px;
+  padding: 1.2rem;
+}
+
+.contact-form input,
+textarea {
+  background: #1f1f21;
+  border: #1f1f1f;
+  color: white;
+  margin-left: 2rem;
+  margin: 1rem 0 1rem 2rem;
+  padding: 8px;
+  font-size: 1.2rem;
+  min-width: 400px;
+}
+
+.submit-button {
+  padding: 12px;
+  background-color: #15cf81;
+  color: #000;
+  border-radius: 20px;
+  width: 240px;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}

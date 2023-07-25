@@ -4,6 +4,7 @@ import {
   faGraduationCap,
   faCode,
   faBook,
+  faAddressBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 import "./styles.css";
@@ -52,6 +53,18 @@ const navbarList = [
     icon: (
       <FontAwesomeIcon
         icon={faBook}
+        className="hover-style"
+        style={{ color: "#ffffff" }}
+      />
+    ),
+  },
+  {
+    id: 1,
+    name: "#contact",
+    title: "Contact",
+    icon: (
+      <FontAwesomeIcon
+        icon={faAddressBook}
         className="hover-style"
         style={{ color: "#ffffff" }}
       />

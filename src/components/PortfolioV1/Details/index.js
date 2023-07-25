@@ -1,7 +1,8 @@
-import Experience from "./Experience";
 import Introduction from "./Introduction";
-import Projects from "./Projects";
+import Experience from "./Experience";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 import styles from "./styles.module.css";
 
@@ -12,6 +13,7 @@ const Details = () => {
       <Experience />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 };

@@ -45,6 +45,10 @@
   margin: 24px 0;
 }
 
+.info-container__links a {
+  all: unset;
+}
+
 .info-container__links-cover {
   display: flex;
   justify-content: center;
@@ -67,6 +71,8 @@
   border-radius: 16px;
   width: 100%;
   font-weight: bold;
+  cursor: pointer;
+  color: #000;
 }
 
 .info-container__hire:hover {
