@@ -7,6 +7,7 @@
 
 .intro-container {
   font-size: 3.5rem;
+  margin-top: 2rem;
 }
 
 .intro-container__name {
@@ -43,4 +44,13 @@
 
 .logo span {
   font-size: 3.2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .intro-container {
+    font-size: 2.5rem;
+  }
+  .intro-container__name {
+    font-size: 3rem;
+  }
 }

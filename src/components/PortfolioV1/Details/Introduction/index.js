@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import Section from "../Section";
 import styles from "./styles.module.css";
 
@@ -15,9 +17,21 @@ const Introduction = () => {
       </div>
 
       <div className={styles["logo-container"]}>
-        <div className={styles.logo}>
+        <motion.div
+          animate={{
+            rotate: [0, 0, 360, 360, 360],
+            borderRadius: ["30%", "50%", "100%", "100%", "100%"],
+          }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          className={styles.logo}
+        >
           <span>A</span>h
-        </div>
+        </motion.div>
       </div>
     </div>
   );

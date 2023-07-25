@@ -22,7 +22,6 @@
   .portfolio {
     flex-direction: column;
     align-items: center;
-    border: 2px solid green;
     height: fit-content;
   }
 }

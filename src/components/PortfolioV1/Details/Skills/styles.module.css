@@ -5,7 +5,7 @@
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .skills {
@@ -32,4 +32,14 @@
 }
 .skill-name {
   margin-top: 8px;
+}
+
+@media screen and (max-width: 900px) {
+  .skills {
+    transform: scale(0.75);
+    margin: 0;
+  }
+  .skills-container {
+    padding: 0;
+  }
 }
