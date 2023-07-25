@@ -19,7 +19,7 @@ const Skills = () => {
         id="skills"
       >
         <div className={styles.title}>
-          <span style={{ color: "#15cf81" }}>S</span>kills
+          My <span style={{ color: "#15cf81" }}>Skills</span>
         </div>
 
         <div className={styles["skills-container"]}>

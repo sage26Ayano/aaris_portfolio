@@ -1,6 +1,6 @@
 import Experience from "./Experience";
 import Introduction from "./Introduction";
-// import Projects from "./Projects";
+import Projects from "./Projects";
 import Skills from "./Skills";
 
 import styles from "./styles.module.css";
@@ -11,7 +11,7 @@ const Details = () => {
       <Introduction />
       <Experience />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 };

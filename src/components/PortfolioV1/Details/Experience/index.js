@@ -24,7 +24,7 @@ const Experience = () => {
         id="experience"
       >
         <div className="experience-title">
-          Education & <span style={{ color: "#15cf81" }}>Experience</span>
+          Education & <span>Experience</span>
         </div>
         <VerticalTimeline layout="1-column-left">
           {experienceTimeline.map((experience) => {
