@@ -1,3 +1,22 @@
-.navigation {
-  height: 10dvh;
+.details-container {
+  height: 100dvh;
+  overflow: auto;
+  padding: 2rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.details-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.details-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media screen and (max-width: 900px) {
+  .details-container {
+    padding: 3rem;
+  }
 }

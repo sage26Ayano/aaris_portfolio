@@ -1,0 +1,29 @@
+.navigation-container {
+  margin-bottom: 2rem;
+  height: 10dvh;
+}
+
+.navigation-container ul {
+  display: flex;
+  justify-content: space-around;
+  width: 264px;
+  border: 1px solid white;
+  padding: 8px 12px;
+  border-radius: 28px;
+}
+
+.navigation-container ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.check {
+  background: black;
+  height: 500px;
+  width: 500px;
+  margin: 20px;
+}
+
+.hover-style:hover {
+  color: #15cf81 !important;
+}

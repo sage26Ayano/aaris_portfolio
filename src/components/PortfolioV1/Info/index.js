@@ -2,12 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faCopyright } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+import Navigation from "../Details/Navigation";
+
 import Aaris from "../assests/info/aaris.jpg";
 import styles from "./styles.module.css";
 
 const Info = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles["container"]} id="info">
+      <Navigation />
+
       <div className={styles["info-container"]}>
         <div className={styles["info-container__title"]}>
           <div>

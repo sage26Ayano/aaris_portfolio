@@ -1,8 +1,11 @@
+import Section from "../Section";
 import styles from "./styles.module.css";
 
 const Introduction = () => {
   return (
-    <div className={styles["container"]}>
+    <div className={styles["container"]} id="introduction">
+      <Section />
+
       <div className={styles["intro-container"]}>
         <div>
           Hi, I am{" "}
