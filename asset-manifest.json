@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/aaris_portfolio/static/css/main.6321f26c.css",
-    "main.js": "/aaris_portfolio/static/js/main.aabf639c.js",
+    "main.css": "/aaris_portfolio/static/css/main.eeaf7d69.css",
+    "main.js": "/aaris_portfolio/static/js/main.796e0580.js",
     "static/media/aaris.jpg": "/aaris_portfolio/static/media/aaris.6b88bdd45c5bf559d486.jpg",
     "static/media/portfolio.jpg": "/aaris_portfolio/static/media/portfolio.ff7116a69fb5bb2189a4.jpg",
     "static/media/crypto.jpg": "/aaris_portfolio/static/media/crypto.4ff4acae7265ea4ca147.jpg",
     "static/media/ecommerce.jpg": "/aaris_portfolio/static/media/ecommerce.60cef009a3548e5b968d.jpg",
     "index.html": "/aaris_portfolio/index.html",
-    "main.6321f26c.css.map": "/aaris_portfolio/static/css/main.6321f26c.css.map",
-    "main.aabf639c.js.map": "/aaris_portfolio/static/js/main.aabf639c.js.map"
+    "main.eeaf7d69.css.map": "/aaris_portfolio/static/css/main.eeaf7d69.css.map",
+    "main.796e0580.js.map": "/aaris_portfolio/static/js/main.796e0580.js.map"
   },
   "entrypoints": [
-    "static/css/main.6321f26c.css",
-    "static/js/main.aabf639c.js"
+    "static/css/main.eeaf7d69.css",
+    "static/js/main.796e0580.js"
   ]
 }
