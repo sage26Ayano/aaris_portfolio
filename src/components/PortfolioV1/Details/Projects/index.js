@@ -25,17 +25,27 @@ const Projects = () => {
       >
         <div className={styles["project"]}>
           <img src={portfolio} alt="portfolio" />
-          <div className={styles["project-title"]}>Portfolio</div>
-        </div>
-
-        <div className={styles["project"]}>
-          <img src={crypto} alt="crypto" />
-          <div className={styles["project-title"]}>Crypto-maniac</div>
+          <div className={styles["project-title"]}>
+            <a
+              href="https://master-coding.github.io/aaris_portfolio/"
+              target="blank"
+            >
+              Portfolio
+            </a>
+          </div>
         </div>
 
         <div className={styles["project"]}>
           <img src={ecommerce} alt="ecommerce" />
-          <div className={styles["project-title"]}>E-commerce (Ongoing)</div>
+          <div className={styles["project-title"]}>
+            <a href="https://aaris-kapable.netlify.app/" target="blank">
+              Kapable
+            </a>
+          </div>
+        </div>
+        <div className={styles["project"]}>
+          <img src={crypto} alt="crypto" />
+          <div className={styles["project-title"]}>Crypto-maniac</div>
         </div>
       </motion.div>
     </div>

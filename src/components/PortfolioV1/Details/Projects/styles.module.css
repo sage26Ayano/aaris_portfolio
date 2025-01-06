@@ -24,7 +24,6 @@
 }
 
 .project {
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,11 +33,16 @@
 }
 
 .project-title {
+  color: #fff;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
 
-.project-title:hover {
+.project-title a {
+  color: #fff;
+}
+
+.project-title a:hover {
   color: #15cf81;
   font-weight: bold;
   transform: scale(1.1);
