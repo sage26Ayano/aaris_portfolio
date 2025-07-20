@@ -11,7 +11,7 @@ import Navigation from "../Details/Navigation";
 import Aaris from "../assests/info/aaris.jpg";
 import styles from "./styles.module.css";
 
-const Info = () => {
+const Info = ({ showPdf, setShowPdf }) => {
   return (
     <div className={styles["container"]} id="info">
       <Navigation />
@@ -28,7 +28,7 @@ const Info = () => {
 
         <div style={{ textAlign: "center" }}>
           <div className={styles["info-container__address"]}>
-            Gurugram, Haryana
+            Bengaluru, Karnataka
           </div>
 
           <div className={styles["info-container__copyright"]}>
@@ -44,7 +44,7 @@ const Info = () => {
             </div>
 
             <div className={styles["info-container__links-cover"]}>
-              <a href="https://github.com/master-coding" target="blank">
+              <a href="https://github.com/sage26ayano" target="blank">
                 <FontAwesomeIcon icon={faGithub} size="2xs" beatFade />
               </a>
             </div>
@@ -58,13 +58,11 @@ const Info = () => {
               </a>
             </div>
 
-            <div className={styles["info-container__links-cover"]}>
-              <a
-                href="https://drive.google.com/file/d/1lpLbwEa2Zy33KFoiM_w5ZmjUO7BItDg6/view?usp=sharing"
-                target="blank"
-              >
-                <FontAwesomeIcon icon={faFile} beatFade size="2xs" />
-              </a>
+            <div
+              className={styles["info-container__links-cover"]}
+              onClick={() => setShowPdf(!showPdf)}
+            >
+              <FontAwesomeIcon icon={faFile} beatFade size="2xs" />
             </div>
           </div>
         </div>

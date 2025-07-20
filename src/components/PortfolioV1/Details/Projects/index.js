@@ -27,7 +27,7 @@ const Projects = () => {
           <img src={portfolio} alt="portfolio" />
           <div className={styles["project-title"]}>
             <a
-              href="https://master-coding.github.io/aaris_portfolio/"
+              href="https://sage26ayano.github.io/aaris_portfolio/"
               target="blank"
             >
               Portfolio
