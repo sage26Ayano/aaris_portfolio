@@ -24,7 +24,7 @@ const PortfolioV1 = () => {
               &times;
             </button>
             <iframe
-              src={`${process.env.PUBLIC_URL}/aaris_frontend_3YOE.pdf`}
+              src={`${process.env.PUBLIC_URL}/resume.pdf`}
               width="100%"
               height="100%"
               style={{ border: "none" }}
