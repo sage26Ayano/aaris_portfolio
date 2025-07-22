@@ -7,10 +7,18 @@ import {
 
 const experienceTimeline = [
   {
+    id: 5,
+    designation: "Software Engineer II",
+    company: "Moresand Technologies",
+    date: "Jan 2025 - Present",
+    icon: <FontAwesomeIcon icon={faBriefcase} />,
+    location: "Bengaluru, Karnataka",
+  },
+  {
     id: 1,
     designation: "Software Engineer",
     company: "COGOPORT",
-    date: "July 2022 - Present",
+    date: "July 2022 - Dec 2024",
     icon: <FontAwesomeIcon icon={faBriefcase} />,
     location: "Gurugram, Haryana",
   },
