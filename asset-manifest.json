@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aaris_portfolio/static/css/main.ce0c9ccb.css",
-    "main.js": "/aaris_portfolio/static/js/main.cb45ca17.js",
+    "main.js": "/aaris_portfolio/static/js/main.20cafdc9.js",
     "static/media/aaris.jpg": "/aaris_portfolio/static/media/aaris.6b88bdd45c5bf559d486.jpg",
     "static/media/portfolio.jpg": "/aaris_portfolio/static/media/portfolio.ff7116a69fb5bb2189a4.jpg",
     "static/media/crypto.jpg": "/aaris_portfolio/static/media/crypto.4ff4acae7265ea4ca147.jpg",
     "static/media/ecommerce.jpg": "/aaris_portfolio/static/media/ecommerce.60cef009a3548e5b968d.jpg",
     "index.html": "/aaris_portfolio/index.html",
     "main.ce0c9ccb.css.map": "/aaris_portfolio/static/css/main.ce0c9ccb.css.map",
-    "main.cb45ca17.js.map": "/aaris_portfolio/static/js/main.cb45ca17.js.map"
+    "main.20cafdc9.js.map": "/aaris_portfolio/static/js/main.20cafdc9.js.map"
   },
   "entrypoints": [
     "static/css/main.ce0c9ccb.css",
-    "static/js/main.cb45ca17.js"
+    "static/js/main.20cafdc9.js"
   ]
 }
